@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glow_lichen"
+    },
+    "X": {
+      "item": "compressedstone:stonework_block"
+    }
+  },
+  "result": {
+    "item": "compressedstone:infused_stonework_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "compressedstone:block/stonework_path"
+      }
+    ]
+  }
+}

@@ -1,5 +1,8 @@
 package com.negative_light.compressedstone;
 
+import com.negative_light.compressedstone.block.ModBlocks;
+import com.negative_light.compressedstone.item.ModItems;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +33,10 @@ public class Compressedstone {
 
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
         eventBus.addListener(this::setup);
 
 

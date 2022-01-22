@@ -2,7 +2,7 @@
   "variants": {
     "": [
       {
-        "model": "compressedstone:block/stonework_path"
+        "model": "compressedstone:block/infused_stonework_path"
       }
     ]
   }

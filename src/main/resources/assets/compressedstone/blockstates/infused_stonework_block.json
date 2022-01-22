@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": {"model": "compressedstone:block/stonework_block"}
+    "": {"model": "compressedstone:block/infused_stonework_block"}
   }
 }

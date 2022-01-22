@@ -23,29 +23,29 @@ public class ModBlocks {
     //*******************DECLARE BLOCKS HERE
     public static final RegistryObject<Block> STONEWORK_PATH = resisterBlock("stonework_path",
             () -> new StoneworkPathBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .requiresCorrectToolForDrops().strength(3.5f).speedFactor(1.1f)));
+                    .requiresCorrectToolForDrops().strength(3.5f).speedFactor(1.5f)));
 
     public static final RegistryObject<Block> REINFORCED_STONEWORK_PATH = resisterBlock("reinforced_stonework_path",
             () -> new StoneworkPathBlock(BlockBehaviour.Properties.of(Material.AMETHYST).requiresCorrectToolForDrops()
-                    .strength(3.5f, 7f).speedFactor(1.5f).speedFactor(1.1f)));
+                    .strength(3.5f, 7f).speedFactor(1.5f).speedFactor(1.5f)));
 
     public static final RegistryObject<Block> INFUSED_STONEWORK_PATH = resisterBlock("infused_stonework_path",
             () -> new StoneworkPathBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
                     .requiresCorrectToolForDrops()
-                    .strength(3.5f).lightLevel((p_50872_) -> { return 15; }).speedFactor(1.5f)));
+                    .strength(3.5f).lightLevel((p_50872_) -> 7).speedFactor(1.5f)));
 
     public static final RegistryObject<Block> STONEWORK_BLOCK = resisterBlock("stonework_block",
             () -> new StoneworkBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
                     .strength(3.5f).requiresCorrectToolForDrops(), false, STONEWORK_PATH));
     public static final RegistryObject<Block> REINFORCED_STONEWORK_BLOCK = resisterBlock("reinforced_stonework_block",
             () -> new StoneworkBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .strength(3.5f, 7).requiresCorrectToolForDrops(), false, REINFORCED_STONEWORK_PATH));
+                    .strength(3.5f, 7f).requiresCorrectToolForDrops(), false, REINFORCED_STONEWORK_PATH));
 
 
 
     public static final RegistryObject<Block> INFUSED_STONEWORK_BLOCK = resisterBlock("infused_stonework_block",
             () -> new StoneworkBlock(BlockBehaviour.Properties.of(Material.AMETHYST)
-                    .requiresCorrectToolForDrops().strength(3.5f).lightLevel((p_50872_) -> { return 15; }), true, INFUSED_STONEWORK_PATH));
+                    .requiresCorrectToolForDrops().strength(3.5f).lightLevel((p_50872_) -> 7), true, INFUSED_STONEWORK_PATH));
 
     //*******************HELPER FUNCTIONS
     private static <T extends Block> RegistryObject<T> resisterBlock(String name, Supplier<T> block) {

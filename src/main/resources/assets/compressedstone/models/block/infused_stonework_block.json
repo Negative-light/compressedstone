@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "minecraft:block/furnace_top"
+    "all": "compressedstone:block/infused_stonework_block"
   }
 }

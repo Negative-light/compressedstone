@@ -1,10 +1,10 @@
 {
   "parent": "block/block",
   "textures": {
-    "particle": "minecraft:furnace_top",
-    "top": "compressedstone:block/unknown",
-    "side": "minecraft:block/furnace_top",
-    "bottom": "minecraft:block/furnace_top"
+    "particle": "minecraft:block/stone",
+    "top": "compressedstone:block/stonework_path_top",
+    "side": "compressedstone:block/infused_stonework_block",
+    "bottom": "compressedstone:block/infused_stonework_block"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],

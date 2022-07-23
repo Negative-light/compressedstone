@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "value": [
+  "values": [
     "compressedstone:stonework_block",
     "compressedstone:reinforced_stonework_block",
     "compressedstone:infused_stonework_block",

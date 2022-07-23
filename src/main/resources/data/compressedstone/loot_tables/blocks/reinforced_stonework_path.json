@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "compressedstone:stonework_block"
+          "name": "compressedstone:reinforced_stonework_block"
         }
       ],
       "conditions": [

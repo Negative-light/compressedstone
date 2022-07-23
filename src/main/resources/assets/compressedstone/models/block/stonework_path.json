@@ -3,7 +3,7 @@
   "textures": {
     "particle": "minecraft:block/stone",
     "top": "compressedstone:block/stonework_path_top",
-    "side": "minecraft:block/furnace_top",
+    "side": "compressedstone:block/stonework_path_side",
     "bottom": "minecraft:block/furnace_top"
   },
   "elements": [

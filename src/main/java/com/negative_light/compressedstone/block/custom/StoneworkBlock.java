@@ -5,17 +5,14 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.logging.Logger;
 
 public class StoneworkBlock extends Block {
 
@@ -49,7 +46,7 @@ public class StoneworkBlock extends Block {
                 Item playerItem = pPlayer.getMainHandItem().getItem();
                 if(playerItem instanceof PickaxeItem)
                     pLevel.setBlockAndUpdate(pPos, pushEntitiesUp(pState, pathType.get().defaultBlockState(), pLevel, pPos));
-                LOGGER.warn("PLAYER INTERACTION");
+
             }
 
 

@@ -1,7 +1,7 @@
-Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot\bin\java.exe
-Arguments: '--inJar, C:\Users\night\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.1-39.0.9\forge-1.18.1-39.0.9-injected.jar, --outJar, C:\Users\night\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.1-39.0.9_mapped_parchment_2021.12.19-1.18.1\forge-1.18.1-39.0.9_mapped_parchment_2021.12.19-1.18.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\night\CODE\MODING\FORGE\CompresedStone\build\_atJar_4\parent_at.cfg'
+Java Launcher: C:\Users\night\.gradle\jdks\jdk-17.0.3+7\bin\java.exe
+Arguments: '--inJar, C:\Users\night\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-injected.jar, --outJar, C:\Users\night\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, D:\CODE\JAVA\MINECRAFT\MODS\compressedstone\build\_atJar_4\parent_at.cfg'
 Classpath:
  - C:\Users\night\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: C:\Users\night\CODE\MODING\FORGE\CompresedStone\build\_atJar_4
+Working directory: D:\CODE\JAVA\MINECRAFT\MODS\compressedstone\build\_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================
